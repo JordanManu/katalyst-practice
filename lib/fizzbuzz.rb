@@ -4,9 +4,3 @@ def fizzbuzz(number)
   return 'Buzz' if number % 5 == 0
   return number
 end
-
-num = 1
-30.times do 
-  puts fizzbuzz(num)
-  num += 1
-end
